@@ -12,14 +12,14 @@ export const educationList: Array<EducationItemType> = [
   {
     school: 'University of Liverpool',
     major: 'MSc Cybersecurity',
-    logo: 'university',
+    logo: 'collage',
     start: '2025',
     end: 'Present'
   },
   {
     school: 'BITS Pilani, Dubai Campus',
     major: 'B.E. Computer Science Engineering',
-    logo: 'university',
+    logo: 'collage',
     start: '2021',
     end: '2025'
   },
