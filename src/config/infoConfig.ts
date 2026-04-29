@@ -56,7 +56,7 @@ export const socialLinks: Array<SocialLinkType> = [
   },
   {
     name: 'LinkedIn',
-    icon: 'linkedinLogo',
+    icon: 'linkedin',
     href: 'https://www.linkedin.com/in/fawwaz-ahmed/',
     external: true
   }
