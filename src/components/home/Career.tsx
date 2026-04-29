@@ -12,7 +12,7 @@ function CareerItem({ careerItem }: { careerItem: CareerItemType }) {
   return (
     <li className="flex gap-4">
       <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md border border-muted bg-background">
-        <CustomIcon name={careerItem.logo} />
+        <Briefcase size={24} weight="duotone" />
       </div>
       <dl className="flex flex-auto flex-wrap gap-x-2">
         <dt className="sr-only">Company</dt>

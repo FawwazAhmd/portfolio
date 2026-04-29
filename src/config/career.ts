@@ -12,7 +12,7 @@ export const careerList: Array<CareerItemType> = [
   {
     company: 'Elfit Arabia',
     title: 'ERP & Data Management Intern',
-    logo: 'database',
+    logo: 'briefcase',
     start: 'Jan 2025',
     end: 'Jul 2025'
   },

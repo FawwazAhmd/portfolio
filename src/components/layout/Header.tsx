@@ -292,7 +292,7 @@ export function Header() {
         return
       }
 
-      // 当滚动超过一定距离时，完全隐藏 Hi
+      // Hi
       let opacity = window.scrollY < 50 ? 1 : 0
 
       setProperty('--avatar-hi-opacity', opacity.toString())
@@ -411,7 +411,6 @@ export function Header() {
               <div className="flex justify-end md:flex-1">
                 <div className="pointer-events-auto flex flex-row items-center gap-2 md:mr-2">
                   <ThemeToggle />
-                  <GithubRepo />
                 </div>
               </div>
             </div>

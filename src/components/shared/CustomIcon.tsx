@@ -11,7 +11,9 @@ import {
   Butterfly,
   Pill,
   LinkedinLogo,
-  DiscordLogo
+  DiscordLogo,
+  Briefcase,   // ✅ added
+  Code         // ✅ added
 } from '@phosphor-icons/react'
 
 export function CustomIcon({ name, size = 20 }: { name: string; size?: number }) {
@@ -38,6 +40,13 @@ export function CustomIcon({ name, size = 20 }: { name: string; size?: number })
       return <LinkedinLogo size={size} weight="duotone" />;
     case "discord":
       return <DiscordLogo size={size} weight="duotone" />;
+
+    // NEW CASES (for Work section)
+    case "briefcase":
+      return <Briefcase size={size} weight="duotone" />;
+    case "code":
+      return <Code size={size} weight="duotone" />;
+
     default:
       return null
   }

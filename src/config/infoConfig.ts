@@ -33,10 +33,6 @@ export const aboutParagraphs = [
 ]
 
 
-// blog
-export const blogHeadLine = "Insights & Learnings"
-export const blogIntro = "Thoughts on technology, cybersecurity, and software development."
-
 
 // social links
 export type SocialLinkType = {
