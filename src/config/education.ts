@@ -13,7 +13,7 @@ export const educationList: Array<EducationItemType> = [
     school: 'University of Liverpool',
     major: 'MSc Cybersecurity',
     image: '/images/liverpool-logo.png',
-    logo: 'collage',
+    logo: 'college',
     start: '2025',
     end: 'Present'
   },
@@ -21,7 +21,7 @@ export const educationList: Array<EducationItemType> = [
     school: 'BITS Pilani, Dubai Campus',
     major: 'B.E. Computer Science Engineering',
     image: '/images/bits-logo.png',
-    logo: 'collage',
+    logo: 'college',
     start: '2021',
     end: '2025'
   },
