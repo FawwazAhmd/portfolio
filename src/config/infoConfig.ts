@@ -15,7 +15,7 @@ export const headline =
 export const introduction =
   'I’m Fawwaz, a Cybersecurity Master’s student at the University of Liverpool with a background in software development. I enjoy building secure, scalable applications and working on real-world problems using modern technologies.'
 
-export const email = 'your-email@gmail.com'
+export const email = 'fawwazahmedapple@gmail.com'
 
 export const githubUsername = 'FawwazAhmd'
 
