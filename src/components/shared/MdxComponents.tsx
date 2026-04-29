@@ -24,24 +24,24 @@ const CustomLink = (props: React.DetailedHTMLProps<React.AnchorHTMLAttributes<HT
         />
 }
 
-// 自定义代码块组件
+// 
 const CustomCode = (props: any) => {
   const { children, className } = props;
   const match = /language-(\w+)/.exec(className || '');
   
-  // 如果是在pre标签内的code，可能是代码块的一部分
+  // 
   const isInPre = 
     typeof props.node?.parentNode?.tagName === 'string' && 
     props.node.parentNode.tagName.toLowerCase() === 'pre';
   
-  // 对于行内代码（不在pre内且没有语言标记）
+  // 
   if (!isInPre && !match) {
     return (
       <code className="rounded-sm mx-1 px-1.5 py-0.5 bg-zinc-100 dark:bg-background text-zinc-800 dark:text-zinc-200 font-mono text-sm " {...props} />
     );
   }
   
-  // 对于带语言标记的代码块
+  // 
   if (match) {
     return (
       <SyntaxHighlighter
@@ -63,33 +63,33 @@ const CustomCode = (props: any) => {
     );
   }
   
-  // 对于pre内的普通代码（无语言标记的代码块）
-  // 返回普通代码，不添加任何样式，让CustomPre处理外层样式
+  // 
+  // 
   return <code {...props}>{children}</code>;
 };
 
-// 自定义预格式化代码块容器
+// 
 const CustomPre = (props: any) => {
   const { children } = props;
   
-  // 检查是否包含SyntaxHighlighter组件
+  // 
   if (children && children.type === SyntaxHighlighter) {
-    return children; // 直接返回SyntaxHighlighter，不添加额外样式
+    return children; // 
   }
   
-  // 检查children是否已经是经过CustomCode处理的元素
-  // 通过检查className判断是否已经应用了样式
+  // 
+  // 
   if (
     children &&
     children.props &&
     children.props.className &&
     (children.props.className.includes('bg-zinc') || children.props.className.includes('language-'))
   ) {
-    // 这种情况下直接返回children，避免重复添加背景色
+    // 
     return children;
   }
   
-  // 对于无语言标记的普通代码块，添加基本样式
+  // 
   return (
     <pre className="my-6 bg-zinc-100 dark:bg-background text-sm tracking-tight rounded-xl p-4 overflow-x-auto shadow-md font-mono" {...props}>
       {children}

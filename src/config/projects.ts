@@ -50,12 +50,12 @@ export const projects: Array<ProjectItemType> = [
     name: 'AWS Hosted Website',
     description:
       'Deployed a web application on AWS infrastructure demonstrating cloud hosting, scalability, and server configuration.',
-    link: { href: 'http://3.28.119.26/', label: 'Live Demo' },
+    link: { href: '#', label: 'Live Demo' },
     category: ['Cloud'],
     techStack: ['AWS', 'EC2', 'Linux'],
     tags: ['Cloud', 'Deployment']
   }
 ]
 
-// GitHub projects (optional — keep empty for now)
+// GitHub projects
 export const githubProjects: Array<ProjectItemType> = []
