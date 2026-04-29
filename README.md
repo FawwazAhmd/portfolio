@@ -59,7 +59,7 @@ https://vercel.com
 ## Contact
 
 - GitHub: https://github.com/FawwazAhmd
-- LinkedIn: (add your link)
+- LinkedIn: https://www.linkedin.com/in/fawwaz-ahmed/
 
 ## Notes
 
