@@ -8,13 +8,10 @@ import { Container } from '@/components/layout/Container'
 import portraitImage from '@/images/portrait.jpg'
 import SocialLinks from '@/components/about/SocialLinks'
 
-
-
-
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Hi, I am Corey Chiu, a software engineer based in Shenzhen, China.',
+    'Hi, I am Fawwaz Ahmed, a Cybersecurity Master’s student at the University of Liverpool with a background in software development.',
 }
 
 export default function About() {
@@ -25,7 +22,7 @@ export default function About() {
           <div className="max-w-xs px-2.5 lg:max-w-none">
             <Image
               src={portraitImage}
-              alt=""
+              alt="Fawwaz Ahmed"
               sizes="(min-width: 1024px) 32rem, 20rem"
               className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
             />

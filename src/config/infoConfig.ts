@@ -7,24 +7,35 @@ export * from './activity'
 
 
 // personal info
-export const name = 'Corey Chiu'
-export const headline = 'Software engineer, Full-Stack web developer, and indie hacker.'
-export const introduction = 'I’m Corey, a software engineer based in Shenzhen, China. I like coding, and building interesting things'
-export const email = 'xxx@gmail.com'
-export const githubUsername = 'iamcorey'
+export const name = 'Fawwaz Ahmed'
+
+export const headline =
+  'Cybersecurity Master’s Student | Software Developer | Cloud & Machine Learning Enthusiast'
+
+export const introduction =
+  'I’m Fawwaz, a Cybersecurity Master’s student at the University of Liverpool with a background in software development. I enjoy building secure, scalable applications and working on real-world problems using modern technologies.'
+
+export const email = 'your-email@gmail.com'
+
+export const githubUsername = 'FawwazAhmd'
+
 
 // about page
-export const aboutMeHeadline = "I'm Corey Chiu, a software engineer based in Shenzhen, China."
+export const aboutMeHeadline =
+  "I'm Fawwaz Ahmed, a Cybersecurity Master’s student with a passion for building secure and scalable systems."
+
 export const aboutParagraphs = [
-  "I love coding. I learned programming when I in college. I wrote my first program in Java when I was 18.",
-  "I have a lot of hobbies, such as travelling, photography, watching movies, music and so on.",
-  "I'm working as a software develop engineer in Shenzhen, China now. And I'm building a lot of side projects in my spare time."
+  "I am currently pursuing my Master’s in Cybersecurity at the University of Liverpool, with a strong foundation in Computer Science Engineering from BITS Pilani Dubai.",
+
+  "I have hands-on experience in software development, cloud computing, and machine learning. I have worked on projects involving AWS, IoT systems, and predictive modeling, focusing on building efficient and real-world solutions.",
+
+  "During my internships, I gained experience in frontend development and enterprise systems, working with technologies like React and ERP platforms. I enjoy solving complex problems and continuously learning new technologies in both development and security domains."
 ]
 
 
 // blog
-export const blogHeadLine = "What I've thinking about."
-export const blogIntro = "I've written something about AI, programming and life."
+export const blogHeadLine = "Insights & Learnings"
+export const blogIntro = "Thoughts on technology, cybersecurity, and software development."
 
 
 // social links
@@ -38,74 +49,35 @@ export type SocialLinkType = {
 
 export const socialLinks: Array<SocialLinkType> = [
   {
-    name: 'X',
-    icon: 'x',
-    href: 'https://x.com/realcoreychiu',
-    external: true
-  },
-  {
-    name: 'Bsky',
-    icon: 'bsky',
-    href: 'https://bsky.app/profile/coreychiu.com',
-    external: true
-  },
-  {
-    name: 'Jike',
-    icon: 'pill',
-    href: 'https://okjk.co/P7c1zU',
-    external: true
-  },
-  {
-    name: 'Github',
+    name: 'GitHub',
     icon: 'github',
-    href: 'https://github.com/iamcorey',
+    href: 'https://github.com/FawwazAhmd',
     external: true
   },
   {
-    name: 'Wechat',
-    icon: 'wechat',
-    href: 'https://mp.weixin.qq.com/s/DxnRgqNfgzXIhqj6w_x0dQ',
-    external: true
-  },
-  {
-    name: 'Discord',
-    icon: 'discord',
-    href: 'https://discord.gg/xTxRg3Ej',
-    external: true
-  },
-  {
-    name: 'Ko-fi',
-    icon: 'coffee',
-    href: 'https://ko-fi.com/coreychiu',
+    name: 'LinkedIn',
+    icon: 'linkedin',
+    href: 'https://www.linkedin.com/in/fawwaz-ahmed/',
     external: true
   }
 ]
 
-// https://simpleicons.org/
+
+// tech stack icons
 export const techIcons = [
   "typescript",
   "javascript",
-  "supabase",
-  "cloudflare",
-  "java",
-  "oracle",
-  "mysql",
+  "python",
   "react",
-  "nodedotjs",
   "nextdotjs",
-  "prisma",
-  "postgresql",
-  "nginx",
-  "vercel",
+  "tailwindcss",
+  "nodedotjs",
+  "aws",
   "docker",
   "git",
   "github",
-  "visualstudiocode",
-  "androidstudio",
-  "ios",
-  "apple",
-  "wechat"
+  "linux",
+  "mysql",
+  "tensorflow",
+  "raspberrypi"
 ];
-
-
-

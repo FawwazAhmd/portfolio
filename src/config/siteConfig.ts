@@ -8,6 +8,7 @@ type NavItemType = {
   href: string
 }
 
+// footer
 export const footerItems: Array<NavItemType> = [
   {
     name: 'Home',
@@ -20,21 +21,10 @@ export const footerItems: Array<NavItemType> = [
   {
     name: 'Projects',
     href: '/projects'
-  },
-  {
-    name: 'Blogs',
-    href: '/blogs'
-  },
-  {
-    name: 'Friends',
-    href: '/friends'
-  },
-  {
-    name: 'Changelog',
-    href: '/changelog'
   }
 ]
 
+// navbar
 export const navItems: Array<NavItemType> = [
   {
     name: 'Home',
@@ -47,9 +37,5 @@ export const navItems: Array<NavItemType> = [
   {
     name: 'Projects',
     href: '/projects'
-  },
-  {
-    name: 'Blogs',
-    href: '/blogs'
   }
 ]
