@@ -22,7 +22,7 @@ This is my personal portfolio website showcasing my projects, technical skills, 
 
 ## Demo
 
-https://your-deployed-link.com
+[My Portfolio](https://fawwaz-portfolio.netlify.app/)
 
 ## About Me
 
