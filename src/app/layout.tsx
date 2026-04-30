@@ -9,11 +9,14 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: `%s - ${name}`,
-    default:
-      `${name} - ${headline}`,
+    default: `${name} - ${headline}`,
   },
-  description:
-    `${introduction}`,
+  description: `${introduction}`,
+
+  icons: {
+    icon: '/favicon.ico',
+  },
+
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed`,
